@@ -21,7 +21,6 @@ const matches = useMediaQuery(theme.breakpoints.down('sm'));
             </Box>
             <Box>
                 <Filter/>
-                {/* <h3>test</h3> */}
             </Box>
         </Box>
     )

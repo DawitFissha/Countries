@@ -12,8 +12,9 @@ export function Search(){
     if(search.length>=3){
       setUrl(`https://restcountries.com/v3.1/name/${search}`)
     }
-    // else setUrl(`https://restcountries.com/v3.1/all`)
+    else {setUrl(`https://restcountries.com/v3.1/all`)}
   }
+  
     return(
         <FormControl sx={{m:1, width: '45ch',
             bgcolor: "background.default",

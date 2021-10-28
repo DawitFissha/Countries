@@ -10,10 +10,10 @@ export function Countries() {
 const {region,url,setUrl} = React.useContext(RegionContext)
 const [data,loading,err] = useFetch(url)
 
-if(region===''){
-  setUrl('https://restcountries.com/v3.1/all')
+if(region){
+  setUrl(`https://restcountries.com/v3.1/region/${region}`)
 }
-else setUrl(`https://restcountries.com/v3.1/region/${region}`)
+// else setUrl(`https://restcountries.com/v3.1/region/${region}`)
 
        if(loading){
        return(
