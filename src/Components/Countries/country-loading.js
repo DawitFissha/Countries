@@ -13,7 +13,7 @@ textAlign:'center'
     <StyledH3
     >Loading for {countryName==='All'? 'Countries':countryName} please wait...</StyledH3>
       <Box sx={{width:'100%'}}>
-        <LinearProgress color='success'/>
+        <LinearProgress color='success' sx={{m:1}}/>
       </Box>
      </>
   );
