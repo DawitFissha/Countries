@@ -71,9 +71,6 @@ export function Filter(){
                     <MenuItem value='oceania'>
                     Oceania
                     </MenuItem>
-                    <MenuItem value=''>
-                    All
-                    </MenuItem>
 
                 </Select>
             </FormControl>
