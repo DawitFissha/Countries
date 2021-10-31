@@ -17,7 +17,7 @@ if(region){
 
        if(loading){
        return(
-        <CountryLoading/>
+        <CountryLoading countryName="All"/>
        );
          }
          else if(err.error){

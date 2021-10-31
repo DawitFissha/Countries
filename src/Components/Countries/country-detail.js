@@ -33,7 +33,7 @@ const ObjToArray = (objs)=>{
  },[name])
 
     if(loading) {
-    return (<CountryLoading/>)
+    return (<CountryLoading countryName = {name}/>)
 }
    else {
     return(
