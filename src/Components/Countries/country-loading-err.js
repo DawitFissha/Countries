@@ -2,8 +2,6 @@ import * as React from 'react'
 import {styled} from '@mui/material/styles'
 import {Box,Button} from '@mui/material'
 import { green } from '@mui/material/colors'
-// import { useFetch } from '../../utils/country-data'
-import { Link } from 'react-router-dom'
 export default function LoadingError({errType}){
     // const history = useHistory()
     const StyledH3 = styled('h3')(({theme})=>({
